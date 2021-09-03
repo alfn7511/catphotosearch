@@ -1,0 +1,28 @@
+{
+  "name": "frontendtest2",
+  "version": "1.0.0",
+  "description": "frontend test 2",
+  "main": "index.html",
+  "scripts": {
+    "test": "jest --config=jest.config.js",
+    "build": "webpack --mode=production",
+    "dev": "webpack serve --mode=development",
+    "live": "live-server",
+    "start": "http-server . -c-1"
+  },
+  "keywords": [],
+  "author": "rotoshine",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^11.3.2",
+    "live-server": "^1.2.1",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.2.2",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  }
+}
